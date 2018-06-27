@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Collections
+title: 收藏
 permalink: /collection/
 icon: bookmark
 type: page
@@ -10,42 +10,26 @@ type: page
 {:toc}
 
 ## 工具
-
-* [box-shadow generator](http://www.cssmatic.com/box-shadow)
-
-    生成 box-shadow 的工具。
-
-* [gradient-generator](http://www.cssmatic.com/gradient-generator)
-
-    渐变生成器。
-
-* [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/)
-
-    也是渐变生成器
-
-* [CSS Generators -CSSREFLEX](http://www.cssreflex.com/css-generators/)
-
-    CSS3 生成器
-
+- [开发者手册 - 云+社区 - 腾讯云](https://cloud.tencent.com/developer/devdocs)
+- [在线流程图](https://www.processon.com)
+- [百度脑图](http://naotu.baidu.com)
 - [tiny png](https://tinypng.com/)
-
-    用于压缩 png 或 jpg 的在线工具
-
-* [图床 https://sm.ms/](https://sm.ms/)
-
-    有 API 可用。
-
-* [新浪微博图床 Chrome扩展](https://github.com/Suxiaogang/WeiboPicBed)
-
-* [Unix 时间戳 Unix timestamp](http://tool.chinaz.com/Tools/unixtime.aspx)
-
+- [Unix 时间戳 Unix timestamp](http://tool.chinaz.com/Tools/unixtime.aspx)
 - [在线正则表达式匹配](https://regex101.com/)
-    - 这个功能更强大一点，能清楚的区分出贪婪和懒惰正则。
-- [http://regexr.com/](http://regexr.com/)
-- [google fonts](https://fonts.google.com/)
-  - [Google Fonts 加速代理](https://fengmk2.com/blog/2016/google-fonts-mirror)
 
 ## 编程语言
+
+### Golang
+
+* [Go语言文档](https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md)
+* [Go Walker - Go 语言在线 API 文档](https://gowalker.org/)
+* [Wide - Team development, anytime, anywhere](https://wide.b3log.org/)
+* [Go 语言包管理 - 版本化缓存和分发 Go 语言包](https://gopm.io/)
+* [Go语言并发之美 - 语行 - 博客园](http://www.cnblogs.com/yuxingfirst/archive/2012/11/28/2792366.html)
+
+### Redis
+
+* [redis命令列表](http://www.redis.cn/commands.html#generic)
 
 ### JavaScript
 
