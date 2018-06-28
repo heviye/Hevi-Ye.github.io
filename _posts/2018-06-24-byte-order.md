@@ -29,7 +29,7 @@ tags: Byte-Order
 ### 网络字节序
 TCP/IP协议规定使用“大端”字节序为网络字节序，某些不使用大端字节序的计算器就要在发送数据之前把字节序转成大端的字节序，接收的时候再把大端的字节序转小小端的字节序
 
-### 与数值的转换（go语言）
+### 与数值的转换
 
 * 将2个字节的数字511(0x01ff)转成大端字节
 
@@ -86,20 +86,30 @@ val := uint16(x | y) // => 0000 0001 1111 1111
 // 结果： val = 511
 ```
 
-### 判断机器的字节序（c语言）
+### 判断机器的字节序
 
-```c
-#include <stdio.h>
-int main() {
-   unsigned short x = 0x000F;
-   char *c = (char*)&x;
+```go
+package main
 
-   if (*c == 0x0F) {
-       printf("Little Endian\n");
-  } else {
-      printf("Big Endian\n");
-  }
+import (
+	"fmt"
+)
 
-  return 0;
+func main() {
+    var x int16 = 0x00FF
+    // x的二进制为：0000 0000 1111 1111
+    // 如果是小端，那么在内存中应该这样存放：
+    // 0000 0000 1111 1111
+    // 如果是大端，那么在内存中应该这样存放：
+    // 1111 1111 0000 0000
+
+    // byte(x) 总会取数据的低地址位
+    // 所以小端的byte(x)=1111 1111，大端的byte(x)=0000 0000
+
+	if byte(x) == 0xFF {
+		fmt.Println("little endian")
+	} else {
+		fmt.Println("big endian")
+	}
 }
 ```
