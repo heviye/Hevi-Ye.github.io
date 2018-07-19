@@ -9,7 +9,7 @@
 title: Hevi
 brief-intro: 编程路上的辛酸历程！
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://Hevi-Ye.github.io" # the base hostname & protocol for your site
+url: "http://hevi.fun" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
