@@ -34,4 +34,4 @@ bundle exec jekyll serve
 ## 所有文章写在`_posts`文件夹里
 格式：YEAR-MONTH-DAY-title.md
 
-新增或修改文章后push到github就好了，github会自动部署，不过时间比较长，10分钟左右
+新增或修改文章后push到github就好了，github会自动部署，不过时间比较长，可能要几分钟左右

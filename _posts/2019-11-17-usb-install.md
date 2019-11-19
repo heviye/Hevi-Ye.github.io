@@ -12,9 +12,6 @@ tags: 制作U盘
 当要给新买的组装台式机安装系统时，身边又没有Windows系统的电脑，只有Mac电脑，这时怎么利害Mac电脑来制作U盘启动程序给机器安装系统，
 其他方法很简历，比在Windows电脑上还简单
 
-
-# 使用MacOS制作Windows 10系统的USB启动程序
-
 ## 所需工具及材料
 
 * MacOS电脑（我的是Macbook pro, 版本是`Catalina 10.15`）
@@ -85,7 +82,7 @@ $ diskutil eraseDisk ExFAT "WINDOWS10" disk3
 
 * ISO文件小于4GB
   
-```sheall
+```shell
 $ diskutil eraseDisk FAT32 "WINDOWS10" MBR disk3
 ```
 
