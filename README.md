@@ -35,3 +35,9 @@ bundle exec jekyll serve
 格式：YEAR-MONTH-DAY-title.md
 
 新增或修改文章后push到github就好了，github会自动部署，不过时间比较长，可能要几分钟左右
+
+## 查看主题或UI框架路径
+```shell
+bundle show minima
+```
+`minima`是`_config.yml`里面的`theme: minima`
