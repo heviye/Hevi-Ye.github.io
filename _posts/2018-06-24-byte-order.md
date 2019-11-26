@@ -9,7 +9,7 @@ tags: Byte-Order
 ### 例子
 假设用户申请了一个2个字节的内存，要存入一个数字15（该数字类型为int16，二进制表示为：00000000 00001111）
 
-![stack_order]({{site.url}}/images/stack_order.png)
+![stack_order]({{site.url}}/assets/images/stack_order.png)
 
 ### 定义
 * 大端（Big Endian）: 高位地址存放在低位的内存地址
