@@ -1,9 +1,6 @@
 ---
-layout: post
 title:  "在阿里云上搭建hyperledger-fabric环境"
-date:   2019-11-25 11:07:54
-categories: 区块链
-tags: hyperledger,fabric
+tags: hyperledger fabric
 ---
 
 ## 基础资源

@@ -1,12 +1,7 @@
 ---
-layout: post
 title:  "在阿里云的ECS上手动部署Hyperledger-fabric网络"
-date:   2019-11-25 23:14:54
-categories: 区块链
 tags: hyperledger
 ---
-
-# 在阿里云的ECS上手动部署Hyperledger-fabric网络
 
 ## 基础环境
 
